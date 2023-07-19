@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #303030;
+    color: antiquewhite;
+
+    display: grid;
+    text-align: center;
+    padding: 10px;
+
+}
+main{
+    padding: 30px 50px;
+}
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.inputpd{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+
+button{
+    border:0;
+    padding: 10px;
+    background-color:#303030;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+button:hover{
+    background-color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th{
+    background-color: #303030;
+    padding: 2px;
+    color: aliceblue;
+}
+table td{
+    padding: 2px;
+}
+
+table td img {
+    width: 25px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #principal{
+        background-color: yellowgreen;
+        text-align: center;
+        padding: 100px;
+        width: 200px;
+    }
+</style>
+
+</head>
+<body>
+    <div id="principal" onclick= "clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+        Essa é a minha div
+    </div>
+    <script>
+        function clicar(){
+            principal.style.background = 'blue'
+            principal.innerText = 'Clicou'
+            principal.style.color = 'white'
+
+    }
+
+    function entrar(){
+        principal.style.background = 'black'
+            principal.innerText = 'entrar?'
+            principal.style.color = 'pink'
+    }
+
+    function saiu(){
+        principal.style.background = 'yellow'
+            principal.innerText = 'saiu!'
+            principal.style.color = 'black'
+    }
+    
+    </script>
+</body>
+</html>
